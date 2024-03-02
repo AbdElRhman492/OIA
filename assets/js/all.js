@@ -27,3 +27,14 @@ scroll_up.addEventListener("click", () => {
 
 window.addEventListener("scroll", scrollFunction);
 window.addEventListener("scroll", scrollIndicator);
+
+// ############### Navbar Icon ###############
+let navIcon = document.getElementById("navIcon");
+let menu = document.getElementById("menu");
+navIcon.addEventListener("click", () => {
+  if (menu.style.display == "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+});
