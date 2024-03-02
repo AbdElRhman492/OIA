@@ -36,6 +36,8 @@ const translations = {
     30: "أسماء كبيرة تثق فينا",
     31: "نتشرف بالعمل مع بعض من أكبر الأسماء في المجال الذين يثقوا بنا للارتقاء بوجودهم الالكتروني",
     58: "مرحبًا بكم في فريق النخبة",
+    59: "الصفحة الرئيسية",
+    60: "الخدمات",
     32: "انغمس في عالم حيث يلتقي الموهبة لا مثيل لها بخبرة لا تضاهى فريقنا هو جوهر وكالتنا، حيث يفخر بخبرة جماعية تصل إلى 10 سنوات عبر صناعات متنوعة. نحن مجموعة ديناميكية من الرؤى كل منا تم اختياره لمهاراته الفريدة وتفانيه في التميز",
     33: "يمنحنا هذا الطيف الواسع من المعرفة القدرة على تقديم حلول مبتكرة تعيد تعريف المعايير. سواء كان التسويق الرقمي استراتيجية الأعمال، أو التنفيذ الإبداعي، نحن في طليعة الصناعة، نضمن لعملائنا ليس فقط مواكبة الركب بل تصدره",
     34: "الشراكة معنا تعني الانضمام إلى قوى مع فريق مكرس النجاحك. نحن نمزج التعاون مع الأساليب المثبتة لتحويل التحديات إلى انتصارات",
@@ -97,6 +99,8 @@ const translations = {
     30: "Big name that trust us ",
     31: "We're honored to work with some of the biggest names in the industry who trust us to elevate their digital presence.",
     58: "MEET THE A-TEAM",
+    59: "Homepage",
+    60: "Services",
     32: "Dive into a world where unparalleled talent meets unmatched experience. Our A-Team is the core of our agency, boasting a collective 10 years of expertise across various industries. We're a dynamic group of visionaries, each selected for our unique skills and dedication to excellence.",
     33: "Our broad spectrum of knowledge empowers us to deliver innovative solutions that redefine standards. Whether it's digital marketing, business strategy, or creative execution, we're at the cutting edge, ensuring our clients not only keep pace but lead the pack.",
     34: "Partnering with us means joining forces with a team dedicated to your success. We blend collaboration with proven methods to turn challenges into triumphs.",
@@ -127,7 +131,7 @@ const translations = {
 };
 
 function switchLanguage(lang) {
-  for (let i = 1; i <= 58; i++) {
+  for (let i = 1; i <= 60; i++) {
     document.getElementById(i).innerHTML = translations[lang][i];
   }
   document.documentElement.lang = lang;
